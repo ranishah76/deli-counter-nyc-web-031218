@@ -20,7 +20,7 @@ end
 def now_serving(katz_deli)
  if katz_deli.empty?
    puts "The line is empty"
- else 
+ else
    puts "Currently serving #{katz_deli.first}"
    katz_deli.shift
  end
